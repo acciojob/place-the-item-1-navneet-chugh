@@ -1,2 +1,32 @@
-
 /* Your CSS Code here. */
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 500px; /* Set a maximum width to prevent squashing when more items are added */
+    margin: 0 auto;
+}
+.green{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+	display: flex;
+	font-size: 24px;
+    margin: 5px; /* Add some margin between the items */
+}
+.red{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+	display: flex;
+    font-size: 24px;
+    margin: 5px; /* Add some margin between the items */
+}
+.blue{
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+	display: flex;
+    font-size: 24px;
+    margin: 5px; /* Add some margin between the items */
+}
